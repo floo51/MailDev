@@ -32,9 +32,6 @@
     "css-watch": "node-sass -wr --output-style compressed -o app/styles assets/styles/style.scss"
   },
   "main": "./index.js",
-  "files": [
-    "./Dockerfile"
-  ],
   "bin": {
     "maildev": "./bin/maildev"
   },
